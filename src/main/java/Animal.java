@@ -2,23 +2,24 @@ public class Animal {
 
 
     private  String name;
-//    private static String name1;
 
 
+    public String getName() {
+        return name;
+    }
 
-
-
-//    public String()
+    public void setName(String name) {
+        this.name = name;
+    }
 
     public void sounds(){
 
-        System.out.println("sound");
+        System.out.println(this.name+" sound");
     }
 
     public void eat(){
 
-        System.out.println(name+" eats" );
-//        System.out.println(name1+" eats");
+        System.out.println(this.name+" eats" );
     }
 
 

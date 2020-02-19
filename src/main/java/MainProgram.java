@@ -7,29 +7,28 @@ public class MainProgram {
         Dog dog2 = new Dog();
         Cat cat = new Cat();
 
+
         System.out.println("");
 
-
-        home.makeAllSounds();
         home.adoptPet(dog1);
-
-        System.out.println("");
-
+        dog1.setName("Rax");
         home.makeAllSounds();
 
+
+
         System.out.println("");
 
-
+        
         home.adoptPet(cat);
+        cat.setName("Stormy");
         home.makeAllSounds();
+
 
         System.out.println("");
-
-
+//
         home.adoptPet(dog2);
+        dog2.setName("Rax");
         home.makeAllSounds();
-
-
 
 
     }

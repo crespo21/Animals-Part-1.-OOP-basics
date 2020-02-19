@@ -8,9 +8,10 @@ public class Home {
     List<Animal> animal = new ArrayList<>();
 
 
-   public void  adoptPet(Animal ani)  {
 
-          animal.add(ani);
+   public void  adoptPet(Animal name)  {
+
+          animal.add(name);
    }
 
    public void makeAllSounds(){
